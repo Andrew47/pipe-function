@@ -1,7 +1,7 @@
 A Pipe Function for Python
 ============================
 
-This code seeks to leverage partial functions to create a pipe function, where the user first inputs the data they would like to process (`args`) and then inputs a series of functions that they would like to apply to the data (`fcns`).
+This code seeks to leverage partial functions to create a pipe function, where the user first inputs the data they would like to process and then inputs a series of functions that they would like to apply to the data.
 
 The aim is to simplify syntax. Suppose we have functions `f`, `g` and `h` and we wish to apply them as follows `f(g(h(x)))`. Instead our `pipe` allows this to be written as `pipe(x)([f,g,h])`.
 
